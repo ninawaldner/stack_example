@@ -13,6 +13,7 @@ import org.apache.logging.log4j.Logger;
  * @see IStack
  */
 public class StringStack implements IStack {
+//  Klasseneigenschaft nur einmal vorhanden
   private static final Logger logger = LogManager.getLogger(StringStack.class);
   /**
    * stores the string values of this stack
@@ -49,6 +50,12 @@ public class StringStack implements IStack {
     return (elementCount == 0);
   }
 
+
+  /**
+   * push method: puts an element on the stack
+   *
+   * @param item
+   */
   @Override
   public void push(String item) {
     logger.info("push");
@@ -60,6 +67,11 @@ public class StringStack implements IStack {
     elementData[elementCount++] = item;
   }
 
+  /**
+   * pop method: get top element of the stack
+   *
+   * @return top element of the stack
+   */
   @Override
   public String pop() {
     logger.info("pop");

@@ -9,14 +9,14 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>Stack</name>
-  <url>https://github.com/michaelulm/software-configuration-management/tree/master/test-automation/junit5/Stack</url>
+  <url>https://github.com/ninawaldner/stack_example</url>
 
   <developers>
     <developer>
-      <id>michaelulm</id>
-      <name>Michael Ulm</name>
-      <email>michael.ulm@fh-joanneum.at</email>
-      <url>https://www.michael-ulm.at</url>
+      <id>ninawaldner</id>
+      <name>Nina Waldner</name>
+      <email></email>
+      <url></url>
       <organization>FH JOANNEUM GmbH</organization>
       <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
       <roles>
